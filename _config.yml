@@ -1,0 +1,15 @@
+auto: true
+source:      .
+destination: ./_site
+includes:    ./_includes
+
+pygments:    true
+markdown:    rdiscount
+permalink:   /:title.html
+
+description: ""
+
+rdiscount:
+  extensions: []
+  
+exclude: ['Gemfile', 'Gemfile.lock', 'add.rb', 'template.textile', 'Rakefile', 'README.textile', 'config.rb', 'new.rb', 'template.html']

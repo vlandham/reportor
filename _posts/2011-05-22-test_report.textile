@@ -1,0 +1,18 @@
+---
+layout: default
+title: Test Report
+---
+
+h1. This is a test report
+
+h2. Subheader
+
+Lots of info here.
+
+p(large). this is a large text
+
+| Here | Is | A Reports|
+| 1 | 2 | 3 |
+| 4 | 5 | 6 |
+
+{% file /Volumes/core/aaa/bbb/ttt.txt %}
